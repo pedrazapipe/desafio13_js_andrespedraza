@@ -1,0 +1,52 @@
+.body__catalogo {
+
+    height: 800px;
+
+    .body__productos {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 400px;
+
+        .productos {
+
+            margin-right: auto;
+            margin-left: auto;
+
+            h2 {
+
+                text-align: center;
+                margin: 1rem;
+
+            }
+
+            img { 
+
+                height: 200px;
+                        
+            }
+
+            .precios {
+
+                display: flex;
+                margin: 2rem;
+
+                h2 {
+
+                    margin: auto;
+
+                }
+
+                button {
+
+                    margin: auto;
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
